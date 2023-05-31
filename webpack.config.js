@@ -15,6 +15,10 @@ module.exports = {
   },
   resolve: {
     extensions: [".jsx", ".js"],
+    alias: {
+      "@components": path.resolve(__dirname, "src/components"),
+      "@slices": path.resolve(__dirname, "src/slices"),
+    },
   },
   output: {
     filename: "bundle.js",
