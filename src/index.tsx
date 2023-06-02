@@ -6,10 +6,12 @@ import "@src/index.css";
 
 const container = document.getElementById("root");
 
-createRoot(container).render(
-  <StrictMode>
-    <Provider>
-      <App />
-    </Provider>
-  </StrictMode>
-);
+if (container !== null) {
+  createRoot(container).render(
+    <StrictMode>
+      <Provider>
+        <App />
+      </Provider>
+    </StrictMode>
+  );
+}
