@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-context-slices": "^7.2.4",
+    "react-context-slices": "^7.2.8",
     "react-dom": "^18.2.0"
   }
 }
