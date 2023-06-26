@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { Provider } from "@slices";
-import App from "@components/app";
+import App from "@src/app";
 import "@src/index.css";
 
 const container = document.getElementById("root");
